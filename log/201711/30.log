@@ -1,0 +1,6 @@
+[ 2017-11-30T22:59:46+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ log ] z.cn/banner/1 [运行时间：0.048134s][吞吐率：20.78req/s] [内存消耗：1,386.91kb] [文件加载：33]
+[ error ] [0]内部错误[D:\coder\xampp\htdocs\looker\zerg\application\api\controller\v1\Banner.php:41]
+[ error ] 内部错误
+
+---------------------------------------------------------------
