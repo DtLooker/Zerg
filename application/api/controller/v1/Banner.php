@@ -11,7 +11,6 @@ namespace app\api\controller\v1;
 use app\api\model\Banner as BannerModel;
 use app\api\validate\IDMustBePositiveInt;
 use app\lib\exception\BannerMissException;
-use think\Exception;
 
 class Banner
 {
@@ -25,10 +24,13 @@ class Banner
     {
         (new IDMustBePositiveInt())->goCheck();
 
+        //$banner = BannerModel::getBannerByID($id);
+        //get, find 只能找一条       all, select 一组记录
         $banner = BannerModel::getBannerByID($id);
+
         if(!$banner){
            throw new BannerMissException();
         }
-        return $banner;
+        return json($banner);
     }
 }
