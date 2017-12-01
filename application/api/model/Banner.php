@@ -15,6 +15,8 @@ use think\Model;
 class Banner extends Model
 {
 
+    protected $hidden = ['update_time', 'delete_time'];
+
     public function items(){
         //hsaMany()关联其他模型,一对多
         return $this->hasMany('BannerItem', 'banner_id', 'id');

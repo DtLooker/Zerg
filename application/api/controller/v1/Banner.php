@@ -24,13 +24,12 @@ class Banner
     {
         (new IDMustBePositiveInt())->goCheck();
 
-        //$banner = BannerModel::getBannerByID($id);
         //get, find 只能找一条       all, select 一组记录
         $banner = BannerModel::getBannerByID($id);
 
         if(!$banner){
            throw new BannerMissException();
         }
-        return json($banner);
+        return $banner;
     }
 }
