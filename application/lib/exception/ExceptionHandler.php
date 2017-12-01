@@ -8,8 +8,6 @@
 
 namespace app\lib\exception;
 
-
-use think\Exception;
 use think\exception\Handle;
 use think\Log;
 use think\Request;
@@ -22,7 +20,7 @@ class ExceptionHandler extends Handle
 
     //需要返回客户端当前请求url路径
 
-    public function render(Exception $e)
+    public function render(\Exception $e)
     {
         if ($e instanceof BaseException) {
             //如果是自定义的异常
@@ -52,7 +50,7 @@ class ExceptionHandler extends Handle
         return json($result, $this->code);
     }
 
-    private function recordErrorLog(Exception $e)
+    private function recordErrorLog(\Exception $e)
     {
         //关闭了系统日志，要初始化日志
         Log::init([

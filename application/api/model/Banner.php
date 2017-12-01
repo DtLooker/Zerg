@@ -9,18 +9,20 @@
 namespace app\api\model;
 
 
-use think\Exception;
+use think\Db;
+use think\Model;
 
-class Banner
+class Banner extends Model
 {
-    public static function getBannerByID($id){
-        //TODO: 根据Banner ID号  获取Banner信息
-//        try{
-//            1/0;
-//        }catch (Exception $e){
-//            throw $e;
-//        }
-//        return 'this is banner info';
-        return null;
+
+    public function items(){
+        //hsaMany()关联其他模型,一对多
+        return $this->hasMany('BannerItem', 'banner_id', 'id');
+    }
+
+    public static function getBannerByID($id)
+    {
+        $banner = self::with(['items', 'items.img'])->find($id);
+        return $banner;
     }
 }
