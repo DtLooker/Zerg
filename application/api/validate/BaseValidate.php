@@ -14,20 +14,21 @@ use think\Validate;
 
 class BaseValidate extends Validate
 {
-    public function goCheck(){
+    public function goCheck()
+    {
         //获取http传入参数
         //对这些参数做校验
         $request = Request::instance();
         $params = $request->param();
 
         $result = $this->batch()->check($params);
-        if(!$result){
+        if (!$result) {
             $e = new ParameterException([
                 'msg' => $this->error
             ]);
             $e->msg = $this->error;
             throw $e;
-        }else{
+        } else {
             return true;
         }
     }
@@ -38,6 +39,15 @@ class BaseValidate extends Validate
             return true;
         } else {
             return false;
+        }
+    }
+
+    protected function isNotEmpty($value, $rule = '', $data = '', $field = '')
+    {
+        if (empty($value)) {
+            return false;
+        } else {
+            return true;
         }
     }
 }
