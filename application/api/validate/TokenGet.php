@@ -19,5 +19,4 @@ class TokenGet extends BaseValidate
         'code' => '没有code不能获取Token'
     ];
 
-
 }

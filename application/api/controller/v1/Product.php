@@ -27,13 +27,24 @@ class Product
         return $products;
     }
 
-    public function getAllInCategory($id){
+    public function getAllInCategory($id)
+    {
         (new IDMustBePositiveInt())->goCheck();
 
         $products = ProductModel::getProductsByCategoryID($id);
-        if(!$products){
+        if (!$products) {
             throw new ProductException();
         }
         return $products;
+    }
+
+    public function getOne($id)
+    {
+        (new IDMustBePositiveInt())->goCheck();
+        $product = ProductModel::getProductDetail($id);
+        if(!$product){
+            throw new ProductException();
+        }
+        return $product;
     }
 }
