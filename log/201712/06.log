@@ -43,3 +43,54 @@
 [ sql ] [ SQL ] UPDATE `user_address`  SET `country`='黑水之塔'  WHERE  `id` = 3 [ RunTime:0.004001s ]
 
 ---------------------------------------------------------------
+[ 2017-12-06T14:12:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/second
+[ log ] z.cn/api/v1/second [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,460.70kb] [文件加载：34]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:12:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/third
+[ log ] z.cn/api/v1/third [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,460.82kb] [文件加载：34]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:12:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/third
+[ log ] z.cn/api/v1/third [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,460.82kb] [文件加载：34]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:33:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] z.cn/api/v1/token/user [运行时间：0.334019s][吞吐率：2.99req/s] [内存消耗：2,657.96kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024001s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'owzHz0KDTNTEhpjhxGxcp_kSQZIc' LIMIT 1 [ RunTime:0.008001s ]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:33:54+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] z.cn/api/v1/address [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：3,089.05kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:38:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] z.cn/api/v1/token/user [运行时间：0.289016s][吞吐率：3.46req/s] [内存消耗：2,656.89kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'owzHz0KDTNTEhpjhxGxcp_kSQZIc' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:41:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ log ] z.cn/api/v1/token/user [运行时间：0.239014s][吞吐率：4.18req/s] [内存消耗：2,657.96kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'owzHz0KDTNTEhpjhxGxcp_kSQZIc' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-06T14:41:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/address
+[ log ] z.cn/api/v1/address [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：3,089.03kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
