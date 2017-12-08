@@ -16,6 +16,7 @@ use app\lib\exception\OrderException;
 use app\lib\exception\UserException;
 use app\api\model\Order as OrderModel;
 use think\Exception;
+use think\Db;
 
 class Order
 {
@@ -42,10 +43,14 @@ class Order
         }
         //开始创建订单
         $orderSnap = $this->snapOrder($status);
+        $order = $this->createOrder($orderSnap);
+        $order['pass'] = true;
+        return $order;
     }
 
     private function createOrder($snap)
     {
+        Db::startTrans();
         try {
             $orderNo = $this->makeOrderNo();
             $order = new OrderModel();
@@ -59,21 +64,35 @@ class Order
             $order->snap_items = json_encode($snap['pStatus']);
 
             $order->save();
+           // 1/0;
 
             $orderID = $order->id;
             $create_time = $order->create_time;
 
-            foreach ($this->oProducts as $p) {
+        //自 PHP 5 起，可以很容易地通过在 $value 之前加上 & 来修改数组的单元。
+        //此方法将以引用赋值而不是拷贝一个值。
+        //<?php
+        //$arr = array(1, 2, 3, 4);
+        //foreach ($arr as &$value) {
+        //    $value = $value * 2;
+        //}
+        // $arr is now array(2, 4, 6, 8) 搜索
+        //
+        foreach ($this->oProducts as &$p) {
                 $p['order_id'] = $orderID;
             }
             $orderProduct = new OrderProduct();
             $orderProduct->saveAll($this->oProducts);
+
+            Db::commit();
+
             return [
                 'order_no' => $orderNo,
                 'order_id' => $orderID,
                 'create_time' => $create_time
             ];
         } catch (Exception $e) {
+            Db::rollback();
             throw $e;
         }
     }

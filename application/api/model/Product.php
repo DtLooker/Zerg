@@ -11,6 +11,8 @@ namespace app\api\model;
 
 class Product extends BaseModel
 {
+    protected $resultSetType = 'collection'; //设置返回数据集的对象名
+
     //pivot 多对多关系中间表
     protected $hidden = [
         'delete_time', 'create_time', 'update_time',
