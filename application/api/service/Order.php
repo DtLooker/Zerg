@@ -64,21 +64,21 @@ class Order
             $order->snap_items = json_encode($snap['pStatus']);
 
             $order->save();
-           // 1/0;
+            // 1/0;
 
             $orderID = $order->id;
             $create_time = $order->create_time;
 
-        //自 PHP 5 起，可以很容易地通过在 $value 之前加上 & 来修改数组的单元。
-        //此方法将以引用赋值而不是拷贝一个值。
-        //<?php
-        //$arr = array(1, 2, 3, 4);
-        //foreach ($arr as &$value) {
-        //    $value = $value * 2;
-        //}
-        // $arr is now array(2, 4, 6, 8) 搜索
-        //
-        foreach ($this->oProducts as &$p) {
+            //自 PHP 5 起，可以很容易地通过在 $value 之前加上 & 来修改数组的单元。
+            //此方法将以引用赋值而不是拷贝一个值。
+            //<?php
+            //$arr = array(1, 2, 3, 4);
+            //foreach ($arr as &$value) {
+            //    $value = $value * 2;
+            //}
+            // $arr is now array(2, 4, 6, 8) 搜索
+            //
+            foreach ($this->oProducts as &$p) {
                 $p['order_id'] = $orderID;
             }
             $orderProduct = new OrderProduct();
@@ -144,6 +144,17 @@ class Order
             ]);
         }
         return $userAddress->toArray();
+    }
+
+    public function checkOrderStock($orderID)
+    {
+        $oProducts = OrderProduct::where('order_id', '=', $orderID)
+            ->select();
+        $this->oProducts = $oProducts;
+
+        $this->products = $this->getProductsByOrder($oProducts);
+        $status = $this->getOrderStatus();
+        return $status;
     }
 
     private function getOrderStatus()
