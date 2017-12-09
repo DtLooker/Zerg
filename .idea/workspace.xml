@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bce5bd1-b921-4424-84da-50b045ae9ab7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/service/Order.php" afterPath="$PROJECT_DIR$/application/api/service/Order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/service/Token.php" afterPath="$PROJECT_DIR$/application/api/service/Token.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/route.php" afterPath="$PROJECT_DIR$/application/route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/controller/v1/Pay.php" afterPath="$PROJECT_DIR$/application/api/controller/v1/Pay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/api/service/Pay.php" afterPath="$PROJECT_DIR$/application/api/service/Pay.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/201712/09.log" afterPath="$PROJECT_DIR$/log/201712/09.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +14,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Zerg" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="UserToken.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/service/UserToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="0">
               <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding>
                 <element signature="e#118#145#0#PHP" expanded="true" />
@@ -30,18 +34,18 @@
       <file leaf-file-name="WxPay.Api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="113">
               <caret line="520" column="38" lean-forward="false" selection-start-line="520" selection-start-column="38" selection-end-line="520" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#124#162#0#PHP" expanded="true" />
               </folding>
@@ -52,11 +56,21 @@
       <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/service/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#118#151#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Error.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/api/model/BaseModel.php" />
-        <option value="$PROJECT_DIR$/application/api/model/Image.php" />
         <option value="$PROJECT_DIR$/application/api/controller/v2/Banner.php" />
         <option value="$PROJECT_DIR$/application/api/validate/IDCollection.php" />
         <option value="$PROJECT_DIR$/application/api/validate/IDMustBePositiveInt.php" />
@@ -134,9 +146,11 @@
         <option value="$PROJECT_DIR$/application/api/service/Order.php" />
         <option value="$PROJECT_DIR$/application/api/service/Token.php" />
         <option value="$PROJECT_DIR$/application/lib/enum/OrderStatusEnum.php" />
-        <option value="$PROJECT_DIR$/application/api/service/Pay.php" />
-        <option value="$PROJECT_DIR$/application/api/controller/v1/Pay.php" />
         <option value="$PROJECT_DIR$/extend/WxPay/WxPay.Api.php" />
+        <option value="$USER_HOME$/Desktop/work/一部/38/Sanbaxlx.php" />
+        <option value="$PROJECT_DIR$/extend/WxPay/WxPay.Config.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/v1/Pay.php" />
+        <option value="$PROJECT_DIR$/application/api/service/Pay.php" />
       </list>
     </option>
   </component>
@@ -146,6 +160,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="z.cn" id="116af1a3-e11f-4503-831e-4869e91480f1" name="Apach" />
@@ -153,10 +168,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="570" />
-    <option name="y" value="2" />
+    <option name="x" value="661" />
+    <option name="y" value="5" />
     <option name="width" value="1392" />
-    <option name="height" value="1058" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -182,11 +197,6 @@
             <path>
               <item name="Zerg" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zerg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Zerg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zerg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Zerg" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +241,7 @@
     </option>
   </component>
   <component name="RunManager" selected="PHP Web Application.Zerg">
-    <configuration name="Zerg" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apach" start_url="/api/v1/Theme" />
+    <configuration name="Zerg" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Apach" start_url="/api/v1/pay/pre_order" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -255,27 +265,28 @@
       <workItem from="1512529995798" duration="11846000" />
       <workItem from="1512650965673" duration="7553000" />
       <workItem from="1512702150790" duration="12487000" />
-      <workItem from="1512781337400" duration="8681000" />
+      <workItem from="1512781337400" duration="11299000" />
+      <workItem from="1512799331560" duration="9529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119286000" />
+    <option name="totallyTimeSpent" value="131433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="570" y="2" width="1392" height="1058" extended-state="0" />
+    <frame x="661" y="5" width="1392" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24430956" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30101466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24430956" sideWeight="0.5057283" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34668192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -293,17 +304,37 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/api/controller/v1/Pay.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/api/service/Pay.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/application/api/service/Pay.php</url>
+          <line>101</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="27" />
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <dependency id="0" />
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/ProductException.php" />
-    <entry file="file://$PROJECT_DIR$/application/api/model/Category.php" />
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/CategoryException.php" />
     <entry file="file://$PROJECT_DIR$/application/lib/exception/WeChatException.php" />
     <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -322,23 +353,8 @@
     <entry file="file://$PROJECT_DIR$/application/extra/secure.php" />
     <entry file="file://$PROJECT_DIR$/application/lib/exception/TokenException.php" />
     <entry file="file://D:/Documents/Tencent Files/370782324/FileRecv/小程序测试工具/Protoss-Tool-Release/app.js" />
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2282">
-          <caret line="337" column="27" lean-forward="true" selection-start-line="337" selection-start-column="27" selection-end-line="337" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/extra/wx.php" />
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Token.php" />
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="932" column="20" lean-forward="false" selection-start-line="932" selection-start-column="20" selection-end-line="932" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/validate/TokenGet.php" />
     <entry file="file://$PROJECT_DIR$/application/common.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -364,9 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="e#124#162#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,9 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#125#163#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,20 +430,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/service/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="142" column="37" lean-forward="false" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
           <folding>
-            <element signature="e#119#150#0#PHP" expanded="true" />
+            <element signature="e#119#150#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,57 +452,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/enum/OrderStatusEnum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/service/UserToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="0">
           <caret line="57" column="28" lean-forward="false" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding>
             <element signature="e#118#145#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="520" column="38" lean-forward="false" selection-start-line="520" selection-start-column="38" selection-end-line="520" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,23 +489,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/201712/09.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="520" column="38" lean-forward="false" selection-start-line="520" selection-start-column="38" selection-end-line="520" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/work/一部/38/Sanbaxlx.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="2397" column="0" lean-forward="false" selection-start-line="2397" selection-start-column="0" selection-end-line="2397" selection-end-column="0" />
+          <folding>
+            <marker date="1512088806368" expanded="true" signature="9488:9528" ph="SELECT * FRO... ${$this-&gt;getTable()}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/enum/OrderStatusEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/WxPay/WxPay.Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#124#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/service/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <element signature="e#118#151#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#124#162#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="412">
+          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
